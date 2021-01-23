@@ -1,0 +1,602 @@
+.wrapper{
+    display: grid ;
+    grid-template-columns:160px 911px 185px;
+}
+
+  .Clinic-logo {
+    width: 35px;
+    height: 34px;
+    margin: 0 5px 258px 8px;
+    object-fit: contain;
+  }
+
+
+ .nav__expand{
+    width: 342px;
+    height: 1024px;
+    margin: 0 1023px 0 0;
+    padding: 40px 174px 72px 32px;
+    border-radius: 51px;
+    background-color: #3b76ef;
+ }
+.nav__closed{
+    width: 160px;
+    height: 1024px;
+    margin: 0 1205px 0 0;
+    padding: 40px 80px 72px 32px;
+    border-radius: 51px;
+    background-color: #3b76ef;
+}
+
+  .nav-closed .nav__expand {
+    transform: rotatez(0deg);
+  }
+  
+  .nav-closed .nav__listitem p {
+    display: none;
+  }
+  .Dashboard---selected {
+    width: 48px;
+    height: 48px;
+    margin-top: 332px ;
+    margin-right: 80px ;
+    margin-left: 20px;
+    object-fit: contain;
+  }
+  .chart {
+    width: 22px;
+    height: 22px;
+
+    margin-right: 80px ;
+    margin-left:  32px;
+    object-fit: contain;
+  }
+  .like {
+    width: 22px;
+    height: 19px;
+    margin-top: 40px ;
+    margin-right: 80px ;
+    margin-left: 32px;
+    object-fit: contain;
+  }
+  .profile {
+    width: 19px;
+    height: 23px;
+    margin-top: 40px ;
+    margin-right: 80px ;
+    margin-left: 32px;
+    object-fit: contain;
+  }
+  .range1{
+  width: 3px;
+  height: 51px;
+  margin: 0 13px 0 0;
+  padding: 35px 0 0;
+  opacity: 0.45;
+  border-radius: 2px;
+  background-color: #9bbcff;
+}
+/* middle part*/
+.nested1{
+    display: flex;
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows: 624px 240px;
+}
+.Middle-background {
+    width: 911px;
+    height: 1024px;
+    margin: 0 47px 0 0;
+    padding: 55px 42px 107px 47px;
+    border-radius: 51px;
+    background-color: #f4faff;
+  }
+.Search-icon {
+    width: 18px;
+    height: 18px;
+    margin: 0 18px 12px 5px;
+    object-fit: contain;
+  }
+.Search-for-athlete-p {
+    width: 403px;
+    height: 16px;
+    margin: 2px 70px 12px 18px;
+    font-family: Metropolis;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #85a5c2;
+    border:none;
+    border-bottom: solid 1px #d4e3f0;;
+    background-color: #f4faff;
+    
+    
+  }
+.time-rectangle {
+    width: 240px;
+    height: 48px;
+    margin: -5px 0 15px 59px;
+    padding: 15px 17px 15px 18px;
+    border-radius: 24px;
+    box-shadow: 0 2px 14px 0 rgba(239, 246, 253, 0.35);
+    background-color: #ffffff;
+  }
+  .concentration-rectangle{
+    width: 246px;
+    height: 160px;
+    margin: 0 40px 50px 0;
+    padding: 24px 61px 14px 29px;
+    border-radius: 19px;
+    background-color: #3b76ef;
+
+  }
+  .BrainStress-rectangle{
+    width: 246px;
+  height: 160px;
+  margin: 0 39px 50px 40px;
+  padding: 24px 20px 34px 19px;
+  border-radius: 19px;
+  background-color: #63c7ff;
+  }
+  .Brain-activity{
+    width: 246px;
+    height: 160px;
+    margin: 0 5px 50px 39px;
+    padding: 24px 87px 27px 30px;
+    border-radius: 19px;
+    background-color: #a66dd4;
+
+  }
+  .BrainStress-rectangle input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    
+  }
+
+  /* */
+.nested2{
+    display: flex;
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-rows: 246px 246px 246px;
+}
+.slider{
+  transform:translate(-50%,-50%) rotate(-90deg);
+  width: 3px;
+  height: 51px;
+  margin: 0 13px 0 0;
+  padding: 35px 0 0;
+  /* opacity: 0.45; */
+  border-radius: 2px;
+}
+.slider[type="range"]{
+  
+  background-color: #f7fbff;
+
+}
+.slider[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    display: none;
+}
+
+.coach1{
+    width: 122px;
+    height: 120px;
+    margin: 0 20px 12px 15px;
+    padding: 18px 32px;
+    border-radius: 16px;
+    background-color: #eef7fe;
+    align-content: center;
+    position: relative;
+}
+.coach1 p{
+    width: 71px;
+  height: 17px;
+  margin: 12px 24px 13px 4px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #59748a;
+}
+.coach2{
+    width: 122px;
+    height: 120px;
+    margin: 0 8px 12px 5px;
+    padding: 18px 32px;
+    border-radius: 16px;
+    background-color: #eef7fe;
+    align-content: center;
+}
+.coach2 p{
+    width: 71px;
+  height: 17px;
+  margin: 12px 24px 13px 4px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #59748a;
+}
+.coach1 figure figcaption{
+    width: 53px;
+  height: 16px;
+  margin: 0px 4px 0 1px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #59748a;
+}
+.coach2 figure figcaption{
+    width: 53px;
+  height: 16px;
+  margin: 0px 4px 0 1px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #59748a;
+}
+/*  */
+.nested3{
+    display: flex;
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows: 380px 385px;
+}
+.coaches{
+    width: 380px;
+    height: 280px;
+    margin: 50px 57px 49px 0;
+    padding: 25px 40px 27px;
+    border-radius: 19px;
+    background-color: #ffffff;
+    display:flex;
+}
+.active-coaches{
+    width: 385px;
+    height: 284px;
+    margin: 50px 0 45px 57px;
+    padding: 52px 34px 54px;
+    border-radius: 19px;
+    box-shadow: 0 -4px 24px 0 rgba(236, 236, 236, 0.5);
+    background-color: #ffffff;
+}
+.green-button{
+    width: 70px;
+  height: 29px;
+  margin: 15px 32px 22px 0;
+  padding: 5px 18px 2px;
+  border-radius: 7px;
+  background-color: #e2f8e4;
+  text-decoration: chartreuse;
+}
+.blue-button{
+    width: 71px;
+  height: 29px;
+  margin: 15px 0 22px 8px;
+  padding: 5px 16px 2px;
+  border-radius: 7px;
+  background-color: #e8e8f8;
+}
+.mobile-number{
+    width: 132px;
+    height: 17px;
+    margin: 31px 41px 10px 0;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #59748a;
+}
+.mobile-number-text{
+    width: 88px;
+  height: 15px;
+  margin: 10px 14px 0 0;
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #85a5c2;
+}
+.time-detail{
+    width: 144px;
+  height: 17px;
+  margin: 31px 0 10px 3px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #59748a;
+}
+.time-details{
+    width: 65px;
+  height: 15px;
+  margin: 10px 8px 0 3px;
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #85a5c2;
+}
+.matt-henry{
+    width: 84px;
+  height: 22px;
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.05px;
+  text-align: center;
+  color: #000000;
+}
+.team-member-matt{
+    width: 69px;
+  height: 22px;
+  font-family: Gotham;
+  font-size: 9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.33;
+  letter-spacing: 0.03px;
+  color: #bebebe;
+  margin-left: 5px;
+}
+.place-icon{
+    width: 45px;
+    height: 45px;
+    margin: 0 14px 8px;
+    padding: 14px 15px 12px 16px;
+    border-radius: 10px;
+    background-color: #eef7fe;
+}
+.time-icon{
+    width: 45px;
+    height: 45px;
+    margin: 0 0 8px;
+    padding: 14px;
+    border-radius: 10px;
+    background-color: #eef7fe;
+}
+.sport-icon{
+    width: 45px;
+    height: 45px;
+    margin: 0 0 8px;
+    padding: 14px 12px;
+    border-radius: 10px;
+    background-color: #eef7fe;
+}
+.musculation-icon{
+    width: 45px;
+    height: 45px;
+    margin: 0 13px 8px 12px;
+    padding: 14px;
+    border-radius: 10px;
+    background-color: #eef7fe;
+}
+.mind-icon{
+    width: 45px;
+    height: 45px;
+    margin: 0 22px 8px;
+    padding: 14px 15px;
+    border-radius: 10px;
+    background-color: #eef7fe;
+}
+.lotus-icon{
+    width: 45px;
+    height: 45px;
+    margin: 0 14px 8px;
+    padding: 16px 11px 16px 12px;
+    border-radius: 10px;
+    background-color: #eef7fe;
+}
+
+/*  */
+.nested4{
+    display: flex;
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows: 380px 380px;
+}
+.issac{
+    width: 105px;
+  height: 18px;
+  margin: 0 28px 5px 0;
+  font-family: Metropolis;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #59748a;
+}
+.blood-height-weight{
+    display: flex;
+    width: 261px;
+  height: 76px;
+  border-radius: 19px;
+  margin: 37px 37px 40px 0;
+  padding: 11px 24px 10px 23px;
+  background-color: #f4faff;
+
+}
+.running-sessions{
+    width: 380px;
+    height: 200px;
+    margin: 45px 57px 0 0;
+    padding: 25px 50px 34px 40px;
+    border-radius: 19px;
+    background-color: #ffffff;
+}
+.post-workoutSession{
+    width: 380px;
+    height: 200px;
+    margin: 45px 5px 0 57px;
+    padding: 25px 36px 34px 40px;
+    border-radius: 19px;
+    background-color: #ffffff;
+}
+.running-sessions-text{
+    width: 108px;
+    height: 16px;
+    margin: 0 15px 30px 0;
+    font-family: Metropolis;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #85a5c2;
+}
+.post-workoutSession-text{
+    width: 134px;
+    height: 16px;
+    margin: 0 15px 30px 0;
+    font-family: Metropolis;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #85a5c2;
+}
+.nested > div{
+    border: #333 1px solid
+}
+.match-details{
+  width: 261px;
+  height: 193px;
+  margin: 0 37px 11px 37px;
+  padding: 0 0 0 40px;
+  border-radius: 19px;
+  background-color: #3b76ef;
+  background-image: url(medal.svg);
+  background-repeat: no-repeat;
+  
+}
+.match-details p{
+    width: 173px;
+  height: 17px;
+  margin: 7px 8px 17px 0;
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.medal{
+    width: 126px;
+    height: 163px;
+    margin: 0 16px 30px 79px;
+    object-fit: contain;
+    float: left;
+}
+.group-coach{
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    display: flex;
+}
+.health-appointment{
+    width: 261px;
+    height: 182px;
+    margin: 16px 37px 33px 37px;
+    padding: 21px 37px 0 40px;
+    border-radius: 19px;
+    background-color: #f4faff;
+    background-image: url(caduceus.svg);
+    background-repeat: no-repeat;
+    text-decoration-color:#59748a;
+    font-family: Metropolis;
+}
+.follow-up{
+    width: 83px;
+  height: 28px;
+  margin: 15px 14px 25px 0;
+  padding: 6px 12px 8px;
+  border-radius: 8px;
+  background-color: #d8f2ff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.meditatiion{
+  width: 261px;
+  height: 115px;
+  margin: 16px 37px 0 37px;
+  padding: 21px 0 0 24px;
+  border-radius: 19px;
+  background-color: #f1f9ff;
+  background-image: url(lotus.svg);
+  background-repeat: no-repeat;
+}
+.meditatiion-title{
+    width: 80px;
+  height: 18px;
+  margin: 0 39px 0 0;
+  font-family: Metropolis;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #59748a;
+}
+.meditatiion-time{
+    width: 128px;
+  height: 18px;
+  margin: 15px 109px 6px 0;
+  font-family: Metropolis;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #59748a;
+}
+.meditatiion-coach{
+    width: 148px;
+  height: 18px;
+  margin: 6px 89px 19px 0;
+  font-family: Metropolis;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #59748a;
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <script>
+        let navExpand = document.querySelector(".nav__expand");
+        let clinicLogo = document.getElementsByClassName("clinic-logo")
+        let nav = document.querySelectorAll("nav")
+
+             clinicLogo.addEventListener("click", () => {
+             nav.classList.toggle("nav__closed");
+       });
+
+
+    </script>
+    <body>
+        
+
+        <header>
+            <div class = "wrapper">
+                <div class="Menu-rectangle">
+                    <nav class="nav__expand">
+
+                        <img  src="clinicLogo.PNG" class="clinic-logo"/>
+                    
+                    <ul class="nav__list">
+                        <li class="nav__listitem">
+                            <a href="#">
+                                    <img src="profile.PNG">
+                            </a> 
+                            <a href="#">
+                                <img src="dashboard-selected.svg" class="Dashboard---selected">
+                                      <p>Dashboard</p>
+                            </a>
+                            <a href="#">
+                                <img src="chart.svg" class="chart">
+                                <p>Distribution</p>
+                            </a>
+                            <a href="#">
+                                <img src="like.svg" class="like">
+                                <p>Wishlist</p>
+                            </a>
+                            <a href="#">
+                                <img src="profile.svg" class="profile">
+                                <p>Contact</p>
+                            </a>
+                        </li>
+                    
+                    </ul>
+                    </nav>
+                </div>
+                <div class="Middle-background">
+                    <div class="nested1">
+                    
+                        <div style="display: flex;">
+                            <img src="search-icon.svg" class="Search-icon">
+                            <input class="Search-for-athlete-p" placeholder="Search for athlete profile data,workout and meditation sessions">
+                        </div>
+                        <div class="time-rectangle">
+                            <img src="timeIcon.svg" class="Time-icon">
+                            <p id="time"></p>
+                        </div>
+                    </div>
+                    <div class="nested2">
+                        <div class="concentration-rectangle">
+                            <p>Concentration rate</p>
+                            <p>Normal</p>
+                            <div>
+                                <input type="range" value="22" class="slider"/>
+                            <input type="range" value="17" class="slider"/>
+                            <input type="range" value="15" class="slider"/>
+                            <input type="range" value="20" class="slider"/>
+                            <input type="range" value="22" class="slider"/>
+                            <input type="range" value="16" class="slider"/>
+                            <input type="range" value="18" class="slider"/>
+                            <input type="range" value="22" class="slider"/>
+                            <input type="range" value="14" class="slider"/>
+                            <input type="range" value="12" class="slider"/>
+                            </div>
+                        </div>
+                        
+                        <div class="BrainStress-rectangle">
+                            <p>Brain stress rate</p>
+                            <p>Normal</p>
+                            <input type="range" value="60" />
+                        </div>
+                        <div class="Brain-activity">
+                            <p>Brain activity</p>
+                            <svg height="100" width="100">
+                                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="none" stroke-dasharray="440" stroke-dashoffset="230"; />
+                              </svg>
+                              
+                        </div>
+                    </div>
+                    <div class="nested3">
+                        <div class="coaches">
+                            <div class="coach1">
+                                <figure>    
+                                   <img src="olivia.PNG" srcset="img/mask@2x.jpg 2x,img/mask@3x.jpg 3x" class="Mask">
+                                   <figcaption>Olivia H.</figcaption>
+                                </figure>
+                                <p>12 lessons</p>
+                                <div style="display: flex;"><img src="oval1.png"><p>60% achieved</p></div>
+                            </div>
+                            <div class="coach2">
+                                <figure>
+                                    <img src="lina.PNG" srcset="img/mask@2x.jpg 2x,img/mask@3x.jpg 3x" class="Mask">
+                                    <figcaption>Li Na Z.</figcaption>
+                                </figure>
+                                <p>14 lessons</p>
+                                <div style="display: flex;"><img src="oval2.png"><p>40% achieved</p></div>
+                            </div>
+                        </div>
+                        <div class="active-coaches">
+                            <div style="display: flex;">
+                                <div class="green-button">Active</div>
+                                <figure>
+                                    <img src="activecoach.PNG" alt="Matt Henry">
+                                    <figcaption class="matt-henry">Matt Henry</figcaption>
+                                    <figcaption class="team-member-matt">Team Member</figcaption>
+                                </figure>
+                                
+                                <div class="blue-button">Author</div>
+                            </div>
+                            <div style="display: flex;">
+                                <div>
+                                    <p class="mobile-number">(+01)88-555-000-66</p>
+                                    <p class="mobile-number-text">Mobile number</p>
+                                </div>
+                                <div>
+                                    <p class="time-detail">06:00 Pm - 10:00 Pm</p>
+                                    <p class="time-details">Time/Place</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nested4">
+                        <div class="running-sessions">
+                            <div class="running-sessions-text">
+                                Running sessions <b>Excellent</b>
+                            </div>
+                            <div style="display: flex;">
+                                <figure>
+                                    <img src="place-icon.svg" class="place-icon">
+                                    <figcaption>10.64 Kilometers</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="time-icon.svg" class="time-icon">
+                                    <figcaption>1.48 Hours</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="sport-icon.svg" class="sport-icon">
+                                    <figcaption>5.25 Speed</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="post-workoutSession">
+                            <div class="post-workoutSession-text">
+                              Post workout session <b>Excellent</b>
+                            </div>
+                            <div style="display: flex;">
+                                <figure>
+                                    <img src="musculation-icon.svg" class="musculation-icon"><figcaption>48min Stretching</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="mind-icon.svg" class="mind-icon"><figcaption>Mind training</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="lotus-icon.svg" class="lotus-icon"><figcaption>1.0h Meditation</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div >
+                    <div style="display: flex;">
+                        <div><img src="mask.jpg"></div>
+                        <div class="issac">
+                            <figcaption style="font-weight: bold">Issac Williams</figcaption>
+                            <figcaption> 25 years old,London</figcaption>
+                        </div>
+                    </div>
+                    <div class="blood-height-weight">
+                            <div>
+                                <p>Blood </p>
+                                <p>O+</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <p>Height </p>
+                                <p>186cm</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <p>Weight</p>
+                                <p> 90kg</p>
+                            </div>
+                    </div>
+                    <div>
+                        <img src="calender.PNG">
+                    </div>
+                    <div class="match-details">
+                         <p style="font-weight: bold">Match against Team B</p>
+                         <p>9:00AM - 11:30AM</p>
+                         <p>Coach : Nelson Hendricks</p>
+                         <hr>
+                         <div class="group-coach">
+                             <img src="group-28.png">
+                             <img src="group-coach2.png" >
+                             <img src="group-coach3.png">
+                             <img src="group-coach4.png">
+                             <img src="group-coach1.png" >
+                         </div>
+                    </div>
+                    <div class="health-appointment">
+                        <p>Health appointment</p>
+                        <p>9:00AM - 11:30AM</p>
+                        <hr>
+                        <p class="follow-up">Follow-up</p>
+
+                    </div>
+                    <div>
+                        Post workout sessions
+                    </div>
+                    <div class="meditatiion">
+                        <p class="meditatiion-title">Meditation</p>
+                        <p class="meditatiion-time">5:00PM - 6:00PM</p>
+                        <p class="meditatiion-coach">Coach : Tim Bjorvick</p>
+                    </div>
+                </div>
+            </div>
+           
+
+        </header>
+    </body>
+</html>
+
+
